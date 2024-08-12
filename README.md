@@ -17,4 +17,4 @@ SELECT a.track, CASE WHEN a.finished = true THEN 2 WHEN a.cancelled = true THEN 
 - Для запуска тестов должны быть установлены пакеты pytest и requests
 - Запуск всех тестов выполянется командой pytest
 - Для корректного запуска необходимо указать актуальный URL API в файле [configuration.py](configuration.py) в параметре URL_SERVICE
-- Все тесты расположены в файле [get_kit_test.py](get_kit_test.py)
+- Все тесты расположены в файле [get_order_test.py](get_order_test.py)
